@@ -1,4 +1,4 @@
-/* From Uiverse.io by ammarsaa */ 
+/* From Uiverse.io by ammarsaa */
 .form {
   display: flex;
   flex-direction: column;
@@ -45,7 +45,7 @@
   background-color: #00bfff;
 }
 
-.message, 
+.message,
 .signin {
   font-size: 14.5px;
   color: rgba(255, 255, 255, 0.7);
@@ -117,12 +117,59 @@
   border-radius: 10px;
   color: #fff;
   font-size: 16px;
-  transform: .3s ease;
+  transform: 0.3s ease;
   background-color: #00bfff;
 }
 
 .submit:hover {
   background-color: #00bfff96;
+}
+
+.form-group .btn {
+  display: inline-block;
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-size: 14px;
+  line-height: 20px;
+  text-decoration: none;
+  transition:
+    background-color 0.2s ease,
+    color 0.2s ease,
+    border-color 0.2s ease;
+}
+
+.form-group .btn-info {
+  border: 1px solid #00bfff;
+  background-color: #00bfff;
+  color: #fff;
+}
+
+.form-group .btn-info:hover {
+  border-color: #0099cc;
+  background-color: #0099cc;
+  color: #fff;
+}
+
+.form-group .btn-outline-danger {
+  border: 1px solid #dc3545;
+  background-color: transparent;
+  color: #dc3545;
+}
+
+.form-group .btn-outline-danger:hover {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+.form-group .btn-outline-secondary {
+  border: 1px solid #6c757d;
+  background-color: transparent;
+  color: #6c757d;
+}
+
+.form-group .btn-outline-secondary:hover {
+  background-color: #6c757d;
+  color: #fff;
 }
 
 @keyframes pulse {
