@@ -1,0 +1,52 @@
+<%- include("partials/header") %>
+<div class="form-container">
+<div class="card">
+  <form class="form">
+    <p class="title">Contact Details</p>
+    <p class="message">View and manage this contact.</p>
+
+    <div class="flex">
+      <label>
+        <input class="input" type="text" value="Pawan" required />
+        <span>Firstname</span>
+      </label>
+
+      <label>
+        <input class="input" type="text" value="Grover" required />
+        <span>Lastname</span>
+      </label>
+    </div>
+
+    <label>
+      <input class="input" type="email" value="sample@gmail.com" required />
+      <span>Email</span>
+    </label>
+
+    <label>
+      <input class="input" type="number" value="25" required />
+      <span>Age</span>
+    </label>
+
+    <label>
+      <input class="input" type="number" value="9874563210" required />
+      <span>Phone</span>
+    </label>
+
+    <label>
+      <input class="input" type="text" value="jkljlkmlm" required />
+      <span>Address</span>
+    </label>
+
+    <div class="form-group row mb-0">
+      <div class="col-md-9 offset-md-3">
+        <a href="/add-contact" class="btn btn-info">Save</a>
+       
+        <a href="/" class="btn btn-outline-secondary">Cancel</a>
+      </div>
+    </div>
+  </form>
+
+</div>
+</div>
+
+<%- include("partials/footer") %>
